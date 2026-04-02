@@ -16,6 +16,7 @@ class WidgetBookApp extends StatelessWidget {
     return Widgetbook.material(
       directories: directories,
       addons: [ViewportAddon(AndroidViewports.phones)],
+      home: Scaffold(body: Center(child: Text("Welcom to Widget book "))),
     );
   }
 }

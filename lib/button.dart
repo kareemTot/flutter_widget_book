@@ -17,6 +17,10 @@ Widget build(BuildContext context) {
               label: "true",
               initialValue: true,
             ),
+            fillColor: context.knobs.color(
+              label: "fill color",
+              initialValue: Colors.redAccent,
+            ),
           ),
         ),
       ],

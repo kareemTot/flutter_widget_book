@@ -10,6 +10,18 @@
 // **************************************************************************
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
+import 'package:flutter_widget_book_app/button.dart'
+    as _flutter_widget_book_app_button;
 import 'package:widgetbook/widgetbook.dart' as _widgetbook;
 
-final directories = <_widgetbook.WidgetbookNode>[];
+final directories = <_widgetbook.WidgetbookNode>[
+  _widgetbook.WidgetbookComponent(
+    name: 'Container',
+    useCases: [
+      _widgetbook.WidgetbookUseCase(
+        name: 'Default',
+        builder: _flutter_widget_book_app_button.build,
+      ),
+    ],
+  ),
+];

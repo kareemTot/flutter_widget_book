@@ -16,7 +16,7 @@ import 'package:widgetbook/widgetbook.dart' as _widgetbook;
 
 final directories = <_widgetbook.WidgetbookNode>[
   _widgetbook.WidgetbookComponent(
-    name: 'Container',
+    name: 'Scaffold',
     useCases: [
       _widgetbook.WidgetbookUseCase(
         name: 'Default',
